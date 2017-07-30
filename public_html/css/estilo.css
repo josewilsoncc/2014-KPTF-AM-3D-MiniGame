@@ -1,0 +1,127 @@
+#mensaje{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background: #ffffff;
+    z-index:4;
+}
+
+#marco_mensaje{
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border-style: outset;
+    border-width: medium;
+    background-color: #eeeeef !important;
+    color: black !important;
+    width: 40%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index:2;
+    transform: translate(-50%, -50%);    
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+#marco_mensaje_flotante{
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    color: black !important;
+    width: 40%;
+    position: absolute;
+    font-size: 2000%;
+    left: 50%;
+    top: 50%;
+    z-index:2;
+    transform: translate(-50%, -50%);    
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.vertical_center{
+    background-color: #ffffff !important;
+    color: black !important;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index:2;
+    transform: translate(-50%, -50%);    
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+#fondo_mensaje{
+    background-color: white;
+    opacity:0.6;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index:1;
+    left: 0px;
+    top: 0px
+}
+
+#marco{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index:3;
+}
+
+#fondo{
+    background-color: white;
+    opacity:0.6;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index:2;
+    left: 0px;
+    top: 0px
+}
+
+#canvas{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index:1;
+}
+
+.jumbotron{
+    color: #fff !important;
+    background-color: #843534 !important;
+}
+
+body:parent {
+    padding: 0px !important;
+    height: 100%;
+}
+
+.starter-template {
+    padding: 40px 15px;
+    text-align: center;
+}
+
+.btn_opcion{
+    width: 100%;
+    margin: 2px 2px 2px 2px !important;
+}
+
+.ingreso_de_texto{
+    width: 100%;
+    color: black !important;
+    text-align: center;
+    margin: 2px 2px 2px 2px !important;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
